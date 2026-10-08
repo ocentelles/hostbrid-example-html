@@ -1,0 +1,16 @@
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #16362a; background: #f5f2e9; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+header, main, footer { max-width: 58rem; margin: auto; padding: 1.5rem; }
+header { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; border-bottom: 1px solid #c6cfbe; }
+nav { display: flex; gap: 1.25rem; flex-wrap: wrap; }
+a { color: inherit; text-underline-offset: .2em; }
+.brand { font-weight: 750; text-decoration: none; }
+main { padding-block: 4rem; }
+h1 { font-size: clamp(2rem, 6vw, 3.6rem); line-height: 1.12; max-width: 15ch; }
+p, li { max-width: 65ch; line-height: 1.7; }
+.eyebrow { font-weight: 650; }
+.button { display: inline-block; margin-block: 1rem; padding: .8rem 1.2rem; background: #16362a; color: white; border-radius: .35rem; }
+section { margin-block: 3rem; }
+.notice, footer { font-size: .9rem; }
+a:focus-visible { outline: 3px solid #94751a; outline-offset: 5px; }
